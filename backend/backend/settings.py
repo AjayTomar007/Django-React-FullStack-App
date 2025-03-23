@@ -400,7 +400,7 @@ JAZZMIN_UI_TWEAKS = {
 
 import os
 
-# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_bu ild', 'static')
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
